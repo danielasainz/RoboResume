@@ -112,28 +112,28 @@ public class Main {
 
             {
                 System.out.println("=======");
-                System.out.println("Contact information: " + " " + eachPerson.toString());
+                System.out.println("Contact information" + '\n' + eachPerson.toString());
             }
 
             for (Education eachEducation: background)
 
             {
                 System.out.println("========");
-                System.out.println("Education: " + " " + eachEducation.toString());
+                System.out.println("Education" + '\n' + eachEducation.toString());
             }
 
             for (Experience eachExperience: history)
 
             {
                 System.out.println("======");
-                System.out.println("Work experience: " + " " + eachExperience.toString());
+                System.out.println("Work experience" +'\n' + eachExperience.toString());
             }
 
             for (Skills eachSkills: talent)
 
             {
                 System.out.println("======");
-                System.out.println("Skills: " + eachSkills.toString());
+                System.out.println("Skills" + '\n' + eachSkills.toString());
             }
     }
 }

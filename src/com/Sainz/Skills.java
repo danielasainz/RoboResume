@@ -6,7 +6,7 @@ public class Skills {
 
     @Override
     public String toString() {
-        return "Skill: " + skillName + " " + "Proficiency: " + skillProficiency;
+        return "Skill: " + skillName + '\n' + "Proficiency: " + skillProficiency;
     }
 
 

@@ -8,8 +8,8 @@ public class Experience {
 
     @Override
     public String toString() {
-        return "Employer: " + employer + " " + "Title: " + title + " " + "Dates employed: " + datesEmployed +
-                " " + "Responsibilities: " + duties;
+        return "Employer: " + employer + '\n' + "Title: " + title + '\n' + "Dates employed: " + datesEmployed +
+                '\n' + "Responsibilities: " + duties;
     }
 
     public String getTitle() {

@@ -8,8 +8,8 @@ public class Person {
 
     @Override
     public String toString () {
-    return "First name: " + firstName + " " + "Last name: " + lastName + " " + "Email address: " + emailAddress +
-            " " + "Phone number: " + phoneNumber;
+    return "First name: " + firstName + '\n' + "Last name: " + lastName + '\n' + "Email address: " + emailAddress +
+             '\n' + "Phone number: " + phoneNumber;
     }
 
     public String getPhoneNumber() {

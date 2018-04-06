@@ -7,9 +7,10 @@ public class Education {
 
     @Override
     public String toString () {
-        return "Degree type: " + degreeType + " " + "University name: " + universityName + " " +
-                "Year graduated: " + yearGraduated;
+        return "Degree type: " + degreeType + '\n' + "University name: " + universityName + '\n'
+                + "Year graduated: " + yearGraduated;
     }
+
 
     public String getDegreeType() {
         return degreeType;
